@@ -9,7 +9,7 @@
 const url = require('url');
 const { StringDecoder } = require('string_decoder');
 const routs = require('../routes');
-const { notFoundHendeler } = require('../hendeler/notFoundHendler');
+const { notFoundHendeler } = require('../hendeler/reqResHendeler/notFoundHendler');
 
 // hendler object - Module scaffolding
 const hendler = {};

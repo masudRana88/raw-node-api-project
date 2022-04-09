@@ -7,6 +7,7 @@
 
 // dependencis
 const http = require('http');
+const dotenv = require('dotenv').config();
 const { hendleReqRes } = require('./helper/hendleReqRes');
 
 // app object - Module scaffolding
@@ -14,7 +15,7 @@ const app = {};
 
 // consfiguration
 app.config = {
-    port: 3000,
+    port: process.env.NODE_PORT,
 };
 
 // create server

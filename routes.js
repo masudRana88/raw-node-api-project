@@ -7,7 +7,7 @@
 
 // Routs - Module Scaffolding
 
-const { aboutHendler } = require('./hendeler/aboutHendeler');
+const { aboutHendler } = require('./hendeler/reqResHendeler/aboutHendeler');
 
 const routs = {
     about: aboutHendler,
